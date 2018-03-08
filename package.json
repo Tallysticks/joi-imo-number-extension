@@ -1,0 +1,44 @@
+{
+  "name": "joi-imo-number-extension",
+  "version": "1.0.0",
+  "description": "A Joi extension for validationg vessel IMO numbers",
+  "homepage": "https://tallysticks.io",
+  "bugs": {
+    "url": "https://github.com/Tallysticks/joi-imo-number-extension/issues"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Edward Ruchevits",
+    "email": "edward@tallysticks.io"
+  },
+  "contributors": [
+    {
+      "name": "Edward Ruchevits",
+      "email": "edward@tallysticks.io"
+    },
+    {
+      "name": "George Wilson",
+      "email": "george@tallysticks.io"
+    }
+  ],
+  "main": "src",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Tallysticks/joi-imo-number-extension.git"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha test"
+  },
+  "dependencies": {
+    "imonumber": "^1.0.1"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "^3.5.3",
+    "joi": "^13.1.1"
+  },
+  "engines": {
+    "node": "8.x.x"
+  }
+}
