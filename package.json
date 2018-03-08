@@ -1,7 +1,7 @@
 {
   "name": "joi-imo-number-extension",
-  "version": "1.0.0",
-  "description": "A Joi extension for validationg vessel IMO numbers",
+  "version": "1.0.1",
+  "description": "A Joi extension for validation of vessel IMO numbers",
   "homepage": "https://tallysticks.io",
   "bugs": {
     "url": "https://github.com/Tallysticks/joi-imo-number-extension/issues"
